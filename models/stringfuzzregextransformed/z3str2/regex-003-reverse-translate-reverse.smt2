@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (assert (= x "^!yG:^!^!y"))
 (assert (str.in_re x (re.* (re.union (str.to_re "G:^!") (str.to_re "^!y")))))

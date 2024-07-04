@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (assert (= x ";;tt<<''\\\\nn''<<''\\\\nn''WW"))
 (assert (str.in_re x (re.union (re.* (re.* (str.to_re "<<''\\\\nn''WW"))) (str.to_re ";;tt<<''\\\\nn''"))))

@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; User-Agent\u{3A}\w+Minutes\d+www\u{2E}eblocs\u{2E}comHost\u{3A}RunnerHost\u{3a}\u{2E}htmldll\u{3F}
 (assert (str.in_re X (re.++ (str.to_re "User-Agent:") (re.+ (re.union (re.range "0" "9") (re.range "A" "Z") (re.range "a" "z") (str.to_re "_"))) (str.to_re "Minutes") (re.+ (re.range "0" "9")) (str.to_re "www.eblocs.com\u{1b}Host:RunnerHost:.htmldll?\u{a}"))))

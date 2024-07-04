@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; Subject\u{3A}Host\u{3a}Host\u{3A}000Filelogin_ok\u{5E}MiniCommand
 (assert (str.in_re X (str.to_re "Subject:Host:Host:000Filelogin_ok^MiniCommand\u{a}")))

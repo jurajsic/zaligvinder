@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 
 (declare-fun pattern () String)
 (declare-fun str () String)

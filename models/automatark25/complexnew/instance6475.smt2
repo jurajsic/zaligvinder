@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; /\u{2f}\?ts\u{3d}[a-f0-9]{40}\u{26}/Ui
 (assert (not (str.in_re X (re.++ (str.to_re "//?ts=") ((_ re.loop 40 40) (re.union (re.range "a" "f") (re.range "0" "9"))) (str.to_re "&/Ui\u{a}")))))

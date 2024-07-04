@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; User-Agent\u{3A}Web-Mail
 (assert (str.in_re X (str.to_re "User-Agent:Web-Mail\u{a}")))

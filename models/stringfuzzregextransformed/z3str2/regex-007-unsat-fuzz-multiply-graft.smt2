@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (assert (= 24 (str.to_int x)))
 (assert (str.in_re x (re.+ (str.to_re "$$!!eedd"))))

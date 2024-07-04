@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-fun var0 () String)
 (assert (str.in_re var0 (re.++ (re.union (re.+ (str.to_re "00")) (re.+ (str.to_re "111"))) (re.++ (re.+ (re.* (str.to_re "2"))) (re.++ (re.* (re.union (str.to_re "33") (str.to_re "444"))) (re.++ (re.* (re.* (str.to_re "5"))) (re.++ (re.union (re.+ (str.to_re "6")) (re.+ (str.to_re "7"))) (re.++ (re.+ (re.union (str.to_re "88") (str.to_re "999"))) (re.++ (re.union (re.union (str.to_re "aaa") (str.to_re "bb")) (re.* (str.to_re "c"))) (re.++ (re.union (re.+ (str.to_re "d")) (re.union (str.to_re "eee") (str.to_re "f"))) (re.++ (re.union (re.* (str.to_re "g")) (re.+ (str.to_re "h"))) (re.+ (re.* (str.to_re "ii"))))))))))))))
 (assert (<= 476 (str.len var0)))

@@ -1,5 +1,5 @@
-(set-logic ALL)
-(set-option :produce-models true)
+(set-logic QF_SLIA)
+
 
 (declare-fun v0 () String)
 
@@ -9,4 +9,4 @@
 (assert (not (str.in_re v0 (re.++ (str.to_re "F") (re.union (re.+ (str.to_re "C")) (re.++ (re.+ (str.to_re "C")) (str.to_re "G")))))))
 
 (check-sat)
-(get-model)
+

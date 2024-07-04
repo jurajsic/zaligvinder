@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; /\u{3F}p\u{3D}[0-9]{1,10}\u{26}d\u{3D}/U
 (assert (str.in_re X (re.++ (str.to_re "/?p=") ((_ re.loop 1 10) (re.range "0" "9")) (str.to_re "&d=/U\u{a}"))))

@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-fun I0_10 () Int)
 (declare-fun I0_13 () Int)
 (declare-fun I0_2 () Int)

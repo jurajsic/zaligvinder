@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; \.cfg\u{2F}searchfast\u{2F}\u{22}007A-SpyWebsitehttp\u{3A}\u{2F}\u{2F}supremetoolbar\.com\u{2F}index\.php\?tpid=
 (assert (str.in_re X (str.to_re ".cfg/searchfast/\u{22}007A-SpyWebsitehttp://supremetoolbar.com/index.php?tpid=\u{a}")))

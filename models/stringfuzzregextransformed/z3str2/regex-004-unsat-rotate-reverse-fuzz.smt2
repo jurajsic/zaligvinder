@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (assert (= x "e!lr' '\\a"))
 (assert (str.in_re x (re.++ (re.* (re.* (str.to_re "TWO"))) (str.to_re "dba"))))

@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; Referer\u{3A}Host\u{3A}Host\u{3A}Subject\u{3A}online-casino-searcher\.comnetid=Excite
 (assert (str.in_re X (str.to_re "Referer:Host:Host:Subject:online-casino-searcher.comnetid=Excite\u{a}")))

@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; \u{2F}searchfast\u{2F}horoscope2libManager\u{2E}dll\u{5E}getFreeAccessBarHost\u{3A}hostiedesksearch\.dropspam\.com
 (assert (str.in_re X (str.to_re "/searchfast/horoscope2libManager.dll^getFreeAccessBarHost:hostiedesksearch.dropspam.com\u{a}")))

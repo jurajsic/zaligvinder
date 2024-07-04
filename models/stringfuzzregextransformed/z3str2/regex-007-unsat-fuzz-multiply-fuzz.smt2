@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (assert (= (str.to_int x) 30))
 (assert (str.in_re x (re.* (str.to_re "$^0]E'\u{b}'k5~i'DvUPe'' '=94y)_:zXG"))))

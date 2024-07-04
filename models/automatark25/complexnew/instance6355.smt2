@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; DesktopHost\u{3A}act=Microsoft
 (assert (str.in_re X (str.to_re "DesktopHost:act=Microsoft\u{a}")))

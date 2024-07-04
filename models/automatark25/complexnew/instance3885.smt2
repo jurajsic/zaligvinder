@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; serverUSER-AttachedReferer\u{3A}youPointsUser-Agent\u{3A}Host\u{3a}
 (assert (str.in_re X (str.to_re "serverUSER-AttachedReferer:youPointsUser-Agent:Host:\u{a}")))

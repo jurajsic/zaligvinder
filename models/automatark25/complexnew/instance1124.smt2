@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; /\/r_autoidcnt\.asp\?mer_seq=\d[^\r\n]*\u{26}mac=/Ui
 (assert (not (str.in_re X (re.++ (str.to_re "//r_autoidcnt.asp?mer_seq=") (re.range "0" "9") (re.* (re.union (str.to_re "\u{d}") (str.to_re "\u{a}"))) (str.to_re "&mac=/Ui\u{a}")))))

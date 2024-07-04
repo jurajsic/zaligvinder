@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; Subject\u{3A}\d+media\u{2E}dxcdirect\u{2E}com\.smx\?PASSW=SAHHost\u{3A}
 (assert (not (str.in_re X (re.++ (str.to_re "Subject:") (re.+ (re.range "0" "9")) (str.to_re "media.dxcdirect.com.smx?PASSW=SAHHost:\u{a}")))))

@@ -1,5 +1,5 @@
-(set-logic ALL)
-(set-option :produce-models true)
+(set-logic QF_SLIA)
+
 
 (declare-fun var5 () Bool)
 (declare-fun var7 () String)
@@ -21,4 +21,3 @@
 (assert (= true (= "SELECT \u{2a} FROM user_data WHERE userid =" var18 ) ))
 
 (check-sat)
-(get-model)

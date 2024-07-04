@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (declare-const y String)
 (assert (= x "aa||ZZ}}``<<99--TT22::EEvvMMee11aaaaaa"))

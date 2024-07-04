@@ -1,6 +1,6 @@
-(set-logic ALL)
-(set-option :produce-models true)
-(set-info :status sat)
+(set-logic QF_SLIA)
+
+
 
 (declare-fun src () String)
 (declare-fun URL () String)
@@ -36,4 +36,4 @@
 
 
 (check-sat)
-(get-model)
+

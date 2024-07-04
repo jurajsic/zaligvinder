@@ -6,4 +6,4 @@
 (assert (= x_7 (str.replaceall "HelloWorld" "e" "a")))
 
 (check-sat)
-(get-model)
+

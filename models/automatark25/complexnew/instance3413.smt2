@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; \u{23}\u{23}\u{23}\u{23}Host\u{3A}Subject\u{3A}www\u{2E}pcsentinelsoftware\u{2E}comHost\u{3A}WeHost\u{3a}www\u{2E}wowokay\u{2E}com/wowokaybar\u{2E}php
 (assert (str.in_re X (str.to_re "####Host:Subject:www.pcsentinelsoftware.comHost:WeHost:www.wowokay.com/wowokaybar.php\u{a}")))

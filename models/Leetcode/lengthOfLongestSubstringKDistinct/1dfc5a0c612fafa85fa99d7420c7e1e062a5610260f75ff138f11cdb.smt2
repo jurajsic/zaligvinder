@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 
 (declare-fun k () Int)
 (declare-fun s () String)

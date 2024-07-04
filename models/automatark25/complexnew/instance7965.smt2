@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; MicrosoftHost\u{3A}Subject\u{3a}namedDownloadUser-Agent\u{3a}
 (assert (not (str.in_re X (str.to_re "MicrosoftHost:Subject:namedDownloadUser-Agent:\u{a}"))))

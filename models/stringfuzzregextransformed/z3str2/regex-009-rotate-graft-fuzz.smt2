@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (declare-const y String)
 (assert (str.in_re x (str.to_re "'\n'LE'\n';,)]41!MdM|0d[CQ{u:B0cPyLI=kd")))

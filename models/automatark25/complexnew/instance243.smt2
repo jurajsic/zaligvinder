@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; news\d+Host\u{3A}\d+Spywww\u{2E}emp3finder\u{2E}comwwwvbclient\u{3D}SpyBuddyZOMBIES\u{5f}HTTP\u{5f}GETearch\u{2E}earthlink
 (assert (not (str.in_re X (re.++ (str.to_re "news") (re.+ (re.range "0" "9")) (str.to_re "Host:") (re.+ (re.range "0" "9")) (str.to_re "Spywww.emp3finder.comwwwvbclient=SpyBuddyZOMBIES_HTTP_GETearch.earthlink\u{a}")))))

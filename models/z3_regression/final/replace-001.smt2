@@ -1,5 +1,5 @@
-(set-logic ALL)
-(set-info :status sat)
+(set-logic QF_SLIA)
+
 (declare-const some_condition Bool)
 (declare-const t String)
 (declare-const u String)
@@ -8,4 +8,3 @@
 (assert (= u (str.replace "ab" t "z") ) )
 
 (check-sat)
-(get-model)

@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 
 (declare-const a String)
 (declare-const b String)
@@ -9,4 +9,4 @@
 (assert (= x_7 (str.replace x_10 "e" "a")))
 
 (check-sat)
-(get-model)
+

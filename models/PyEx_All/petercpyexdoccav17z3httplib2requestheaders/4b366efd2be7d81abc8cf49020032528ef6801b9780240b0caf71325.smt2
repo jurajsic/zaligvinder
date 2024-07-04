@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-fun url () String)
 (declare-fun headerkey () String)
 

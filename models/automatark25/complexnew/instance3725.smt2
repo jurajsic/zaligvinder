@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; Subject\u{3a}Porta\u{2F}asp\u{2F}offers\.asp\?\u{2F}iis2ebs\.aspwww\u{2E}smileycentral\u{2E}com
 (assert (str.in_re X (str.to_re "Subject:Porta/asp/offers.asp?/iis2ebs.aspwww.smileycentral.com\u{a}")))

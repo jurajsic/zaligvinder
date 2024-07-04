@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; \u{2F}toolbar\u{2F}\d+www\u{2E}ricercadoppia\u{2E}comPALTALKSubject\u{3A}
 (assert (not (str.in_re X (re.++ (str.to_re "/toolbar/") (re.+ (re.range "0" "9")) (str.to_re "www.ricercadoppia.comPALTALKSubject:\u{a}")))))

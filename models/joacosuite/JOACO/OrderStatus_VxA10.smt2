@@ -1,5 +1,5 @@
-(set-logic ALL)
-(set-option :produce-models true)
+(set-logic QF_SLIA)
+
 
 (declare-fun var598 () String)
 (declare-fun var600 () Int)
@@ -63,4 +63,3 @@
 (assert (= true (= (str.++ var594 "WHERE c_last = '" ) var592 ) ))
 
 (check-sat)
-(get-model)

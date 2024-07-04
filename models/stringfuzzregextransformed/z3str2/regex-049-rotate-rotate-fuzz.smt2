@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const key String)
 (declare-const val String)
 (assert (str.in_re key (re.+ (re.range "v" "z"))))

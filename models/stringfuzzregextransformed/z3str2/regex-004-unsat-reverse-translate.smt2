@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (assert (= x "z>F>F}."))
 (assert (str.in_re x (re.union (re.* (str.to_re ">F}.")) (re.* (str.to_re "z>F")))))

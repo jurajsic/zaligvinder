@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; ^[H][R][\-][0-9]{5}$
 (assert (str.in_re X (re.++ (str.to_re "HR-") ((_ re.loop 5 5) (re.range "0" "9")) (str.to_re "\u{a}"))))

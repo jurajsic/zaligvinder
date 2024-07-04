@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const S String)
 (assert (str.in_re S (re.union (str.to_re "/cI<%xxc5.") re.allchar)))
 (assert (not (str.in_re S (re.++ (re.union (re.union (str.to_re "/") re.allchar) (str.to_re "xx")) re.allchar))))

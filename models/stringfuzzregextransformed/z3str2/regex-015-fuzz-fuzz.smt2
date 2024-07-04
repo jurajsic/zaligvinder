@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (declare-const y String)
 (assert (str.in_re x (re.* (str.to_re "R}9{OW/q`p'\\5?]/ddv'\u{c}'r,><12"))))

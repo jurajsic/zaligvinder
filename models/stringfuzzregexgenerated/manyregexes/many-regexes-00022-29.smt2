@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-fun var0 () String)
 (assert (str.in_re var0 (re.++ (re.+ (re.* (str.to_re "0"))) (re.++ (re.* (re.* (str.to_re "1"))) (re.++ (re.* (re.* (str.to_re "22"))) (re.++ (re.* (re.* (str.to_re "3"))) (re.++ (re.+ (re.union (str.to_re "4") (str.to_re "5"))) (re.++ (re.* (re.+ (str.to_re "6"))) (re.++ (re.union (re.+ (str.to_re "77")) (re.* (str.to_re "88"))) (re.++ (re.+ (re.* (str.to_re "9"))) (re.++ (re.* (re.* (str.to_re "aaa"))) (re.+ (re.union (str.to_re "bb") (str.to_re "c"))))))))))))))
 (assert (str.in_re var0 (re.++ (re.union (re.* (str.to_re "0")) (re.* (str.to_re "1"))) (re.++ (re.+ (re.+ (str.to_re "22"))) (re.++ (re.* (re.union (str.to_re "33") (str.to_re "444"))) (re.++ (re.+ (re.union (str.to_re "55") (str.to_re "6"))) (re.++ (re.+ (re.union (str.to_re "7") (str.to_re "8"))) (re.++ (re.union (re.+ (str.to_re "9")) (re.union (str.to_re "aa") (str.to_re "b"))) (re.++ (re.union (re.+ (str.to_re "ccc")) (re.union (str.to_re "d") (str.to_re "ee"))) (re.++ (re.* (re.+ (str.to_re "ff"))) (re.++ (re.+ (re.* (str.to_re "g"))) (re.union (re.union (str.to_re "h") (str.to_re "ii")) (re.+ (str.to_re "j"))))))))))))))

@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (declare-const y String)
 (assert (= x "E2zxN$x/-1Fh*TCf--m'?'\r'BK3-"))

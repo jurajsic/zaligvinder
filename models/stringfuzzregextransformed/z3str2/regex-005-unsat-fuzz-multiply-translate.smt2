@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (declare-const y String)
 (assert (= x "NNNNGGJJ[[zzxxNN'\u{b}''\u{b}''\u{c}''\u{c}''\u{b}''\u{b}'--UUUUVV--eeggii--%%eeZZ99$$ddNN"))

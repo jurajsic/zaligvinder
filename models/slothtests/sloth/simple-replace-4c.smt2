@@ -1,6 +1,6 @@
 (set-logic QF_S)
-(set-option :strings-exp true)
-(set-option :produce-models true)
+
+
 
 (declare-fun x_7 () String)
 (declare-fun x_10 () String)
@@ -14,4 +14,4 @@
 (assert (= x_7 ""))
 
 (check-sat)
-(get-model)
+

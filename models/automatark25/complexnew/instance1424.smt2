@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; www\.123mania\.comSubject\u{3A}PromulGate666Logger-iVisicom
 (assert (str.in_re X (str.to_re "www.123mania.comSubject:PromulGate666Logger-iVisicom\u{a}")))

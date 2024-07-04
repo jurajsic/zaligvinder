@@ -1,6 +1,6 @@
 (set-logic QF_S)
-(set-option :strings-exp true)
-(set-option :produce-models true)
+
+
 (declare-fun sigmaStar_0 () String)
 (declare-fun sigmaStar_5 () String)
 (declare-fun x_2 () String)
@@ -24,7 +24,7 @@
 (assert (= literal_7 "[ hello:"))
 (assert (= x_8 (str.++ literal_7 x_6)))
 (assert (= x_18 (str.++ x_8 sigmaStar_0)))
-(assert (str.in.re x_18 (re.++ (re.* re.allchar) (re.++ (str.to.re "\<SCRIPT") (re.* re.allchar)))))
+(assert (str.in_re x_18 (re.++ (re.* re.allchar) (re.++ (str.to_re "\<SCRIPT") (re.* re.allchar)))))
 (check-sat)
-(get-model)
+
 

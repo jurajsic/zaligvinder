@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-fun var60 () String)
 (declare-fun var62 () String)
 (declare-fun var63 () String)

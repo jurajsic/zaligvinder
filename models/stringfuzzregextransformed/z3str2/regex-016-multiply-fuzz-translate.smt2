@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (declare-const y String)
 (assert (str.in_re x (re.* (re.++ (str.to_re "nN0Tf(v2C'\n'rm{u!ep") (str.to_re "1L4n11Em6C#'\u{b}'>s33")))))

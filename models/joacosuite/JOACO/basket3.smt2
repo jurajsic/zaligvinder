@@ -1,4 +1,5 @@
-(set-option :produce-models true)
+(set-logic QF_SLIA)
+
 (declare-fun var2141 () String)
 (declare-fun var2142 () String)
 (declare-fun var2140 () String)
@@ -33,4 +34,4 @@
 (assert (not (= var2140 "" )) )
 
 (check-sat)
-(get-model)
+

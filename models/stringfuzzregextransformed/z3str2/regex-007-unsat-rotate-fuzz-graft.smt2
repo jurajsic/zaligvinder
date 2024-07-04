@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (assert (= 9 (str.to_int x)))
 (assert (str.in_re x (str.to_re "q\\\\6<Ty")))

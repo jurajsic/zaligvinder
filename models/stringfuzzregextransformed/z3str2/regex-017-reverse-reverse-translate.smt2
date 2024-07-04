@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (declare-const y String)
 (assert (str.in_re x (re.* (re.union (str.to_re "<E") (re.union (str.to_re "(neg") (str.to_re "123"))))))

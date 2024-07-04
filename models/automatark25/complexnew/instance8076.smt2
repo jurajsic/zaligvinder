@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; HTTPwwwProbnymomspyo\u{2f}zowy
 (assert (str.in_re X (str.to_re "HTTPwwwProbnymomspyo/zowy\u{a}")))

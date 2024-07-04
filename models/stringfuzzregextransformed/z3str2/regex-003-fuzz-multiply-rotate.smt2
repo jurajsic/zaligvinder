@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (assert (= x "ccdd$$!!PPCCZZaahhAAhh''\\\\\\\\nn''cc<<ww''{{cc~~99^^GGdd"))
 (assert (str.in_re x (re.+ (re.++ (str.to_re "TTEE;;UU%%xx77") (str.to_re "}}dd")))))

@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (assert (= x "||<<@@FFMM||<<||<<@@"))
 (assert (str.in_re x (re.* (re.union (str.to_re "FFMM||<<") (str.to_re "||<<@@")))))

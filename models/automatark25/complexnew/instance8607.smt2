@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; GREATDriplineisUser-Agent\u{3A}logs===========\u{3E}
 (assert (str.in_re X (str.to_re "GREATDriplineisUser-Agent:logs===========>\u{a}")))

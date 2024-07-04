@@ -1,16 +1,16 @@
 (set-logic QF_S)
-(set-info :status sat)
+
 
 (declare-const key String)
 (declare-const val String)
 
 (define-fun QuoteRegex ((aRegex (RegEx String) )) (RegEx String)
-    (re.++ (re.++ (str.to.re """") aRegex) (str.to.re """")))
+    (re.++ (re.++ (str.to_re """") aRegex) (str.to_re """")))
 
-(assert (str.in.re key (QuoteRegex (re.* (str.to.re "a")))))
+(assert (str.in_re key (QuoteRegex (re.* (str.to_re "a")))))
 
 (assert (= (str.len key) 2)) 
 
 
 (check-sat)
-(get-model)
+

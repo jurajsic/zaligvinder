@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; log\=\u{7B}IP\u{3A}IP-PortaURLSSKC\u{7c}roogoo\u{7c}\.cfgmPOPrtCUSTOMPalToolbarUser-Agent\u{3A}
 (assert (str.in_re X (str.to_re "log={IP:IP-PortaURLSSKC|roogoo|.cfgmPOPrtCUSTOMPalToolbarUser-Agent:\u{a}")))

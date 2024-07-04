@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (assert (= x "RR))iinniinn''\\\\u{x0}0bb''"))
 (assert (str.in_re x (re.union (re.* (str.to_re "RR))iinn")) (re.* (str.to_re "iinn''\\\\u{x0}0bb''")))))

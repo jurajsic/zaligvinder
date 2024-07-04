@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; User-Agent\u{3a}\u{2F}newsurfer4\u{2F}
 (assert (str.in_re X (str.to_re "User-Agent:/newsurfer4/\u{a}")))

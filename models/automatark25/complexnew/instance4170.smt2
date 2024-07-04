@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; User-Agent\u{3A}3AHelpAgent\u{3A}Host\u{3A}searchresltHost\u{3A}notification
 (assert (str.in_re X (str.to_re "User-Agent:3AHelpAgent:Host:searchresltHost:notification\u{13}\u{a}")))

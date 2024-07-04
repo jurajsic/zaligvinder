@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; \u{D}\u{A}\u{D}\u{A}Attached.*Host\u{3A}\s+ZC-Bridge
 (assert (str.in_re X (re.++ (str.to_re "\u{d}\u{a}\u{d}\u{a}Attached") (re.* re.allchar) (str.to_re "Host:") (re.+ (re.union (str.to_re " ") (str.to_re "\u{9}") (str.to_re "\u{a}") (str.to_re "\u{c}") (str.to_re "\u{d}"))) (str.to_re "ZC-Bridge\u{a}"))))

@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; /\u{25}3D$/Im
 (assert (not (str.in_re X (str.to_re "/%3D/Im\u{a}"))))

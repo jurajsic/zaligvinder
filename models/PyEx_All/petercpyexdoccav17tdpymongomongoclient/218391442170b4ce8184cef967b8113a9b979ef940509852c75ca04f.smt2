@@ -1,6 +1,6 @@
-;(set-logic ALL_SUPPORTED)
-;(set-option :strings-exp true)
-;(set-option :produce-models true)
+(set-logic QF_SLIA)
+;
+;
 ;(set-option :rewrite-divk true)
 
 (declare-fun uri () String)

@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; Subject\u{3a}reportGatorNavExcel
 (assert (str.in_re X (str.to_re "Subject:reportGatorNavExcel\u{a}")))

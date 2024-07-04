@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-fun var0 () String)
 (assert (str.in_re var0 (re.++ (re.+ (re.+ (str.to_re "000"))) (re.++ (re.union (re.* (str.to_re "1")) (re.+ (str.to_re "222"))) (re.++ (re.+ (re.* (str.to_re "3"))) (re.++ (re.* (re.+ (str.to_re "444"))) (re.++ (re.union (re.+ (str.to_re "55")) (re.* (str.to_re "666"))) (re.++ (re.union (re.* (str.to_re "77")) (re.* (str.to_re "8"))) (re.++ (re.* (re.+ (str.to_re "99"))) (re.++ (re.* (re.union (str.to_re "a") (str.to_re "bbb"))) (re.++ (re.* (re.* (str.to_re "ccc"))) (re.++ (re.union (re.union (str.to_re "dd") (str.to_re "ee")) (re.union (str.to_re "fff") (str.to_re "g"))) (re.++ (re.union (re.* (str.to_re "h")) (re.union (str.to_re "iii") (str.to_re "j"))) (re.++ (re.* (re.+ (str.to_re "kk"))) (re.++ (re.+ (re.* (str.to_re "lll"))) (re.++ (re.union (re.* (str.to_re "m")) (re.union (str.to_re "n") (str.to_re "o"))) (re.union (re.+ (str.to_re "p")) (re.union (str.to_re "q") (str.to_re "rr")))))))))))))))))))
 (check-sat)

@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (declare-const y String)
 (assert (= x "!!''\\\\rr''''\\\\tt''ZZLL00FF''\\\\tt''!!''\\\\rr''''\\\\tt''ZZLL00FF''\\\\tt''"))

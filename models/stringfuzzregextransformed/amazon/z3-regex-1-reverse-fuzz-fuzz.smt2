@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const S String)
 (assert (not (str.in_re S (re.union re.allchar (str.to_re ":Hz_'\n'M;\\&+d#5l{s0DuM_fH9'\u{b}'06$")))))
 (assert (str.in_re S (re.union re.allchar (re.++ (str.to_re "") (re.union re.allchar (str.to_re "}wOc"))))))

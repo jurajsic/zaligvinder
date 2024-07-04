@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (declare-const y String)
 (assert (str.in_re x (re.+ (str.to_re "_N'\t'cx@MH.Gqw'\n'Ww'\n'm%){5%L~r='\n'\\"))))

@@ -1,4 +1,5 @@
-(set-option :produce-models true)
+(set-logic QF_SLIA)
+
 (declare-fun var1679 () Int)
 (declare-fun var1680 () Int)
 (declare-fun var1681 () Int)
@@ -23,4 +24,4 @@
 (assert (= (str.from_int (- 1)) kv1))
 (assert (= (str.len kv2) (- (str.len var1684) 4)))
 (check-sat)
-(get-model)
+

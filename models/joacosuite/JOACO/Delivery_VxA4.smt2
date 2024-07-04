@@ -1,5 +1,5 @@
-(set-logic ALL)
-(set-option :produce-models true)
+(set-logic QF_SLIA)
+
 
 (declare-fun var457 () Int)
 (declare-fun var456 () Int)
@@ -37,4 +37,3 @@
 (assert (= true (= (str.++ var454 "SELECT \u{2a} FROM \u{28}" ) var452 ) ))
 
 (check-sat)
-(get-model)

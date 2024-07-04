@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (declare-const y String)
 (assert (= x "ab|b@xJW4cd>`&Qd,iRakiH%]^X0r9-hsD/qinD9+>c-"))

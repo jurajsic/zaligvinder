@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-fun id () String)
 
 (assert (not (not (= (ite (= (str.len id) 24) 1 0) 0))))

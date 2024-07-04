@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (declare-const y String)
 (assert (str.in_re x (re.* (str.to_re "$7Dr=}W].Eq' 'jQ|WBWLg.&9$},D!V.F5dvc5Lp>j'T{v!/`L1=$,;m'\r'/N6+^vpH=D9</\\[-Mn|.mGq%' ':iIJj7""'\u{c}'X]<T;=|+'\u{b}':N$diyBtt(y+{'\r'g94|+h7zcdMXp*($('\u{c}'@mJG?"))))

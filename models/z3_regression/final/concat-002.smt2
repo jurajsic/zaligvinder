@@ -1,7 +1,7 @@
-(set-logic ALL)
-(set-info :status sat)
-(set-option :auto-config true)
-(set-option :produce-models true)
+(set-logic QF_SLIA)
+
+
+
 
 (declare-const x String)
 (declare-const y String)
@@ -13,4 +13,3 @@
 (assert (= i 15))
 
 (check-sat)
-(get-model)

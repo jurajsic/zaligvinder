@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (assert (= x "xx'\n''\n'??'\n''\n'??==GGxx'\n''\n'??"))
 (assert (str.in_re x (re.* (re.union (str.to_re "'\n''\n'??==GG") (str.to_re "xx'\n''\n'??")))))

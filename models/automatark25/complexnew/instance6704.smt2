@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; Host\u{3A}stech\u{2E}web-nexus\u{2E}netHost\u{3A}
 (assert (not (str.in_re X (str.to_re "Host:stech.web-nexus.netHost:\u{a}"))))

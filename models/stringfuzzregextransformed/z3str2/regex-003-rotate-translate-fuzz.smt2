@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (assert (= x "|</b:GdFtmqlc&T4B4|G}Od3`O@S@"))
 (assert (str.in_re x (re.+ (re.++ (str.to_re "FM<") (str.to_re "")))))

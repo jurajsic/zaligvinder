@@ -1,4 +1,5 @@
-(set-option :produce-models true)
+(set-logic QF_SLIA)
+
 (declare-fun var1679 () Int)
 (declare-fun var1680 () Int)
 (declare-fun var1681 () Int)
@@ -27,4 +28,4 @@
 (assert (= var1695 (str.++ var1697 "SELECT \u{2a} FROM BasketContents WHERE basketid=" ) ) )
 
 (check-sat)
-(get-model)
+

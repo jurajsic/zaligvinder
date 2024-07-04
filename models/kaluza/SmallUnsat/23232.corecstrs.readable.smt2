@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-fun I0_2 () Int)
 (declare-fun PCTEMP_LHS_1 () Int)
 (declare-fun PCTEMP_LHS_314 () Bool)

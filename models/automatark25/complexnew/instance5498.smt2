@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; Subject\u{3A}\.bmpfromemail=couponbar\.coupons\.comToolbarxml\.alexa\.com
 (assert (str.in_re X (str.to_re "Subject:.bmpfromemail=couponbar.coupons.comToolbarxml.alexa.com\u{a}")))

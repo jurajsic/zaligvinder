@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (declare-const y String)
 (assert (str.in_re x (re.* (re.union (str.to_re "abMU:w9czn)s") (re.union (str.to_re "%f""""54'' ''2ZzZ6u]xf'\\u{c}'") (str.to_re "JB"))))))

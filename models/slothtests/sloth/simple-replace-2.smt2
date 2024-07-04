@@ -9,4 +9,4 @@
 (assert (= x_7 (str.replaceall x_10 "e" "a")))
 
 (check-sat)
-(get-model)
+

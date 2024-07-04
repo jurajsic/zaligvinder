@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; Host\u{3A}backtrust\u{2E}comconfigINTERNAL\.iniTrojanCurrentDaemonresultsmaster\u{2E}comReportMyuntil
 (assert (str.in_re X (str.to_re "Host:backtrust.comconfigINTERNAL.iniTrojanCurrentDaemonresultsmaster.com\u{13}ReportMyuntil\u{a}")))

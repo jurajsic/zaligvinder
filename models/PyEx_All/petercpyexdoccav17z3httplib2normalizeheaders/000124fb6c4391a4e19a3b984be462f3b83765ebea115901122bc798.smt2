@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-fun key2 () String)
 
 (assert (not (not (not (= (ite (str.contains key2 "A") 1 0) 0)))))

@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (assert (= x "hN#I#I'\r'"))
 (assert (str.in_re x (re.union (re.* (re.* (str.to_re "#I'\r'"))) (str.to_re "hN#I"))))

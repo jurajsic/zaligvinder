@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; WindowsFrom\u{3A}\u{2F}CU1\-extreme\u{2E}biz
 (assert (str.in_re X (str.to_re "WindowsFrom:/CU1-extreme.biz\u{a}")))

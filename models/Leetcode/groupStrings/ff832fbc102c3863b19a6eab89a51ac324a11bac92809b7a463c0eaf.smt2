@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 
 (declare-fun in1 () String)
 (declare-fun in0 () String)

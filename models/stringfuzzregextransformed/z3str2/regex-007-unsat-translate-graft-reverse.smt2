@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (assert (= 8 (str.len x)))
 (assert (str.in_re x (re.* (str.to_re "x!I"))))

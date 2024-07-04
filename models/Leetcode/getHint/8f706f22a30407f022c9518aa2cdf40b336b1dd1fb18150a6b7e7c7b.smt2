@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 
 (declare-fun guess () String)
 (declare-fun secret () String)

@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-fun var0 () String)
 (assert (str.in_re var0 (re.++ (re.* (re.* (re.+ (re.* (re.+ (re.* (re.union (re.* (re.* (re.union (str.to_re "000") (str.to_re "11")))) (re.* (re.* (re.union (str.to_re "22") (str.to_re "333"))))))))))) (re.union (re.+ (re.* (re.union (re.union (re.union (re.+ (re.+ (re.+ (re.* (str.to_re "44"))))) (re.union (re.union (re.* (re.+ (str.to_re "55"))) (re.union (re.union (str.to_re "66") (str.to_re "777")) (re.* (str.to_re "8")))) (re.+ (re.* (re.union (str.to_re "99") (str.to_re "aaa")))))) (re.union (re.+ (re.+ (re.union (re.union (str.to_re "b") (str.to_re "ccc")) (re.union (str.to_re "d") (str.to_re "eee"))))) (re.union (re.+ (re.+ (re.+ (str.to_re "fff")))) (re.* (re.+ (re.+ (str.to_re "ggg"))))))) (re.+ (re.+ (re.union (re.+ (re.+ (re.union (str.to_re "hhh") (str.to_re "ii")))) (re.* (re.+ (re.+ (str.to_re "j")))))))))) (re.+ (re.* (re.+ (re.+ (re.* (re.* (re.union (re.* (re.* (str.to_re "k"))) (re.+ (re.+ (str.to_re "ll"))))))))))))))
 (assert (<= 15 (str.len var0)))

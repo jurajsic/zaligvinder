@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 
 
 (declare-fun x () String)

@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (assert (= x "ZZZZkkkk)))){{{{)))){{{{dddd"))
 (assert (str.in_re x (re.union (re.* (str.to_re "ZZZZkkkk)))){{{{")) (re.* (str.to_re ")))){{{{dddd")))))

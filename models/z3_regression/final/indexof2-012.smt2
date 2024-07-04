@@ -1,5 +1,5 @@
-(set-logic ALL)
-(set-info :status sat)
+(set-logic QF_SLIA)
+
 (declare-const aPosition Int)
 (declare-const secondPos Int)
 (declare-const aURL String)
@@ -15,4 +15,4 @@
 
 
 (check-sat)
-(get-model)
+

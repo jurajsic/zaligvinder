@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-fun network () String)
 
 (assert (not (not (not (= (ite (= (str.len network) 0) 1 0) 0)))))

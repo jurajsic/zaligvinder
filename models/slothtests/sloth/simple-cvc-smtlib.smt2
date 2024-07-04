@@ -1,7 +1,7 @@
 ; This example is currently beyond the scope of our tool, since
 ; it contains length constraints and integer variables
 
-(set-logic ALL)
+(set-logic QF_SLIA)
 
 (declare-fun a () String)
 (declare-fun b () String)

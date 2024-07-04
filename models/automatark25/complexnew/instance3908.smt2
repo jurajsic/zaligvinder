@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; /\.exe$/U
 (assert (not (str.in_re X (str.to_re "/.exe/U\u{a}"))))

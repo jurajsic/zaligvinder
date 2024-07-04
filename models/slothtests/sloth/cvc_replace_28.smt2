@@ -1,6 +1,6 @@
 (set-logic QF_S)
-(set-option :strings-exp true)
-(set-option :produce-models true)
+
+
 (declare-fun sigmaStar_0 () String)
 (declare-fun sigmaStar_6 () String)
 (declare-fun literal_9 () String)
@@ -13,7 +13,7 @@
 (assert (= x_10 (str.++ literal_9 x_7)))
 (assert (= literal_11 "\x3c\x2f\x74\x64\x3e"))
 (assert (= A (str.++ x_10 literal_11)))
-(assert (str.in.re A (re.++ (re.* re.allchar) (re.++ (str.to.re "\x5c\x3c\x53\x43\x52\x49\x50\x54") (re.* re.allchar)))))
+(assert (str.in_re A (re.++ (re.* re.allchar) (re.++ (str.to_re "\x5c\x3c\x53\x43\x52\x49\x50\x54") (re.* re.allchar)))))
 
 (check-sat)
-(get-model)
+

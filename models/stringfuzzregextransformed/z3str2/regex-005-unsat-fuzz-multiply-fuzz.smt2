@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (declare-const y String)
 (assert (= x "T*c/'\u{b}'5pb'bsU'\t'KFyVHcx%M'\u{c}'8r36'e'ybt""ay|.#Y_'\r'[A4X5n!Sa4:Do![a<%'\n'P\\NH$)5'98#U3'\n'*;&E`+oL' ''\t'' '$GS9dgN$PGNyc'\t'!>_XKvJPqg3kk'\u{c}'nnHOb8(p4ceOcnd*h<' '&C.CZahAA''\\\\n'\u{c}'5d:oH&O%>(+MVv\\442m:OXvePU\\Q}S7[2KmHrzRte' 'KNzFG45mBdN+l\\$OG,XF%^ssj?-9B'{3R:'\u{c}'jOf'\u{c}'3t-Z'Hkp;lc)MgIU&]CKz!+/' '@dKB][~,OJsA,^Kdvl'\t'Sk,7j|S>Yar>-[#~`/(/#4!}{&Er''sCZ'\r'Lx' 'JebR,->' 'UbwCnr+a^6ME1zh'\r'sStT1;5^'\n'D'\u{b}'&9c'\u{c}'Wg#k|'\u{b}'sOacCZP<$Ma/#9hd4'\n'3|j'HpXpX]gMjnE@{BN^6(O24JdN)%Zpe'\u{b}'{B9cv'\u{c}'eKX`{o;9'\u{b}'?1``eGZ)Wg,@'\t'th_'\n'zC`NfVRZA'\u{c}'^&GEwklTO;_aRn2wur5YPob'\t'+1<XDE=:ml=2Rr9"))

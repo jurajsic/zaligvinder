@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (assert (= x "ATe$(jTPh'\u{b}'u73' '^VJ{P6mYX"))
 (assert (str.in_re x (re.union (re.* (str.to_re "A^yB")) (re.* (str.to_re "#1n^w'\n'ow'\n'")))))

@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; ^((http|https|ftp|ftps)+(:\/\/))?(www\.)?
 (assert (not (str.in_re X (re.++ (re.opt (re.++ (re.+ (re.union (str.to_re "http") (str.to_re "https") (str.to_re "ftp") (str.to_re "ftps"))) (str.to_re "://"))) (re.opt (str.to_re "www.")) (str.to_re "\u{a}")))))

@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-fun PCTEMP_LHS_1 () String)
 (declare-fun var_0xINPUT_124706 () String)
 (assert (= PCTEMP_LHS_1 var_0xINPUT_124706))

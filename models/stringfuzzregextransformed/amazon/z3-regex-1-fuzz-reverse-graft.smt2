@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const S String)
 (assert (not (str.in_re S (re.++ re.allchar (re.union (re.++ re.allchar (str.to_re "{'w'n\\\\'h")) (str.to_re "*YG~c"))))))
 (assert (str.in_re S (re.union (str.to_re "bbbP!$aa") re.allchar)))

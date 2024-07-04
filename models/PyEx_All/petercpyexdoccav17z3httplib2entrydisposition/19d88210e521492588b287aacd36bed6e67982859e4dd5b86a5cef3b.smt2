@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-fun key2 () String)
 
 (assert (not (not (= (ite (= key2 "cache-control") 1 0) 0))))

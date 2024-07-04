@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (declare-const y String)
 (assert (str.in_re x (re.* (re.union (str.to_re "C'c0x\\'") (re.union (str.to_re "/$!^$[$s0#^$") (str.to_re "321"))))))

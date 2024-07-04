@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (assert (= x "T:j0Dkb2R770l-rd>'\u{c}'c'CJ'\n'7"))
 (assert (str.in_re x (str.to_re "")))

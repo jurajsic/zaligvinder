@@ -1,4 +1,5 @@
-(set-option :produce-models true)
+(set-logic QF_SLIA)
+
 (declare-fun var2554 () String)
 (declare-fun var2556 () String)
 (declare-fun var2557 () String)
@@ -24,4 +25,4 @@
 (assert (= var2567 (= var2568 "b_id" ) ) )
 
 (check-sat)
-(get-model)
+

@@ -7,8 +7,8 @@
 
 (assert (= x_10 (str.++ a b)))
 (assert (= x_7 (str.replaceall x_10 "e" "a")))
-(assert (str.in.re x_10 (str.to.re "Hello")))
-(assert (str.in.re x_7 (str.to.re "Hallo")))
+(assert (str.in_re x_10 (str.to_re "Hello")))
+(assert (str.in_re x_7 (str.to_re "Hallo")))
 
 (check-sat)
-(get-model)
+

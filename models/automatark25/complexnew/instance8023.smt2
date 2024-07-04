@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; X-Mailer\u{3A}com\u{18}\u{16}dcww\u{2E}dmcast\u{2E}comHost\u{3A}dist\u{2E}atlas\u{2D}ia\u{2E}com
 (assert (str.in_re X (str.to_re "X-Mailer:\u{13}com\u{18}\u{16}dcww.dmcast.comHost:dist.atlas-ia.com\u{a}")))

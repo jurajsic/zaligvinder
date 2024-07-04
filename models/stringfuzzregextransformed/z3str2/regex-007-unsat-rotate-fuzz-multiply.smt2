@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (assert (= (str.to_int x) 18))
 (assert (str.in_re x (re.+ (str.to_re "qq\\\\\\\\66<<TTyy"))))

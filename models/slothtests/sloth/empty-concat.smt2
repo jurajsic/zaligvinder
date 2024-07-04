@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 
 (declare-fun sigmaStar_0 () String)
 (declare-fun literal_1 () String)
@@ -8,4 +8,4 @@
 
 (assert (= x_2 (str.++ literal_1 sigmaStar_0)))
 (check-sat)
-(get-model)
+

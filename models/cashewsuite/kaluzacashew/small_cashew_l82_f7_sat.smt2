@@ -1,5 +1,5 @@
-(set-logic ALL)
-(set-option :produce-models true)
+(set-logic QF_SLIA)
+
 
 (declare-fun v6 () String)
 (declare-fun v7 () String)
@@ -30,4 +30,4 @@
 (assert (not (str.in_re v9 (re.++ (str.to_re "B") (re.++ (str.to_re "C") (re.++ (str.to_re "C") (re.++ (str.to_re "D") (re.++ (str.to_re "E") (re.++ (str.to_re "F") (re.++ (str.to_re "G") (re.++ (str.to_re "H") (re.++ (str.to_re "I") (re.++ (str.to_re "F") (re.++ (str.to_re "J") (re.++ (str.to_re "K") (re.++ (str.to_re "L") (re.++ (str.to_re "M") (re.++ (str.to_re "D") (re.++ (str.to_re "N") (re.++ (str.to_re "F") (re.++ (str.to_re "O") (re.++ (str.to_re "P") (str.to_re "Q")))))))))))))))))))))))
 
 (check-sat)
-(get-model)
+

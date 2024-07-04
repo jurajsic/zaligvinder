@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (declare-const y String)
 (assert (str.in_re x (re.+ (re.union (str.to_re "i?muSoIH@:V4bV>]fsLd") (re.union (str.to_re "12GN_l(/") (str.to_re "674mB"))))))

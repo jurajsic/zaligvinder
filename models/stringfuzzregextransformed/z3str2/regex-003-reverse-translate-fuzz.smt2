@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (assert (= x ";!/nFd6dNGYYtJ:./s'\u{b}'B!e$G/ctg^'\u{c}'_"))
 (assert (str.in_re x (re.+ (re.union (str.to_re "v`N:ZS") (str.to_re "!>0")))))

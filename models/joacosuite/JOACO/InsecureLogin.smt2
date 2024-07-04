@@ -1,8 +1,7 @@
-(set-logic ALL)
-(set-option :produce-models true)
+(set-logic QF_SLIA)
+
 
 
 (assert (= true (= true false ) ))
 
 (check-sat)
-(get-model)

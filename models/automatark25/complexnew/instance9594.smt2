@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; iepluginBrowsedOVNHost\u{3A}\u{2F}products\u{2F}spyblocs\u{2F}
 (assert (str.in_re X (str.to_re "iepluginBrowsedOVNHost:/products/spyblocs/\u{13}\u{a}")))

@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; (Word1|Word2).*?(10|[1-9])
 (assert (not (str.in_re X (re.++ (re.* re.allchar) (re.union (str.to_re "10") (re.range "1" "9")) (str.to_re "\u{a}Word") (re.union (str.to_re "1") (str.to_re "2"))))))

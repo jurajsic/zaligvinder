@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (declare-const y String)
 (assert (str.in_re x (re.* (re.union (str.to_re "BB") (re.union (str.to_re "oo__BB77))KK''\\\\u{x0}0cc''00TTff::CCoo33cc''hhccDDBBww++") (str.to_re "QQ3366!!**SS__PPhhiiFF22WWppAA"))))))

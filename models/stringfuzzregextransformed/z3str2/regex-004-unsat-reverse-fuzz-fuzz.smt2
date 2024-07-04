@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (assert (= x "Cu>k+ush.V[h={k=#n38f777'\n'ujDr@==/vTBTEdb"))
 (assert (str.in_re x (re.union (re.+ (str.to_re "5LY}'\u{c}'y")) (re.+ (str.to_re "e")))))

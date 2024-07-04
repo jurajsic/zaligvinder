@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; UI2ftpquickbrutehttp\u{3A}\u{2F}\u{2F}discounts\u{2E}shopathome\u{2E}com\u{2F}frameset\u{2E}asp\?
 (assert (not (str.in_re X (str.to_re "UI2ftpquickbrutehttp://discounts.shopathome.com/frameset.asp?\u{a}"))))

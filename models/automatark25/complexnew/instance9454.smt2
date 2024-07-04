@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; adblock\u{2E}linkz\u{2E}comwww\.iggsey\.comHost\u{3A}
 (assert (str.in_re X (str.to_re "adblock.linkz.comwww.iggsey.comHost:\u{a}")))

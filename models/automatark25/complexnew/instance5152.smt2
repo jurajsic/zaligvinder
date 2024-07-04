@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; this is test = this is
 (assert (str.in_re X (str.to_re "this is test = this is\u{a}")))

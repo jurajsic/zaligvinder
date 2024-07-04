@@ -1,6 +1,6 @@
-(set-logic ALL)
-(set-option :produce-models true)
-(set-info :status sat)
+(set-logic QF_SLIA)
+
+
 
 (declare-fun selKeyword_value () String)
 (declare-fun selKeyword_value_trimed () String)
@@ -38,4 +38,4 @@
 
 
 (check-sat)
-(get-model)
+

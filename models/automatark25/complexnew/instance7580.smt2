@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; DigExtNetBus\u{5B}Static
 (assert (not (str.in_re X (str.to_re "DigExtNetBus[Static\u{a}"))))

@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (declare-const y String)
 (assert (= x "YV2{VXaa?k4$q{c{7xyt1p~%'\t'<?N%b'x}2|M"))

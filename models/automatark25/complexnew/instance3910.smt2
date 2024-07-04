@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; Controlsource%3Dultrasearch136%26campaign%3Dsnap
 (assert (str.in_re X (str.to_re "Controlsource%3Dultrasearch136%26campaign%3Dsnap\u{a}")))

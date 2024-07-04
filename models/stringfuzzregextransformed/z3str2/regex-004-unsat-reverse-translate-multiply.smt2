@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (assert (= x "zz>>FF>>FF}}.."))
 (assert (str.in_re x (re.union (re.* (str.to_re ">>FF}}..")) (re.* (str.to_re "zz>>FF")))))

@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-fun json () String)
 
 (assert (and (not (not (not (= (ite (not (= (str.len json) 45)) 1 0) 0)))) (not (not (= (ite (str.prefixof "\u{ef}\u{bb}\u{bf}" json) 1 0) 0)))))

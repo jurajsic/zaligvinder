@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-fun g () String)
 (declare-fun f () String)
 (declare-fun c () String)
@@ -6,4 +7,3 @@
 (assert (= (str.++ "h" (str.++ "b" "d")) (str.++ "c" (str.++ a "h"))))
 (assert (= (str.++ g (str.++ a c)) (str.++ "e" (str.++ "c" "f"))))
 (check-sat)
-(get-model)

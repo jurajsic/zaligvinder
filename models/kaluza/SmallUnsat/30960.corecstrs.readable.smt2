@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-fun T_1 () Int)
 (declare-fun T_2 () Bool)
 (declare-fun var_0xINPUT_431529 () String)

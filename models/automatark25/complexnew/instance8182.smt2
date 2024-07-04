@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; \u{22}reaction\u{2E}txt\u{22}User-Agent\u{3A}newsSpyAgentsmrtshpr-cs-
 (assert (not (str.in_re X (str.to_re "\u{22}reaction.txt\u{22}User-Agent:newsSpyAgentsmrtshpr-cs-\u{13}\u{a}"))))

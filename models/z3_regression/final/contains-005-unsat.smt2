@@ -1,5 +1,5 @@
-(set-logic ALL)
-(set-info :status unsat)
+(set-logic QF_SLIA)
+
 (declare-const x String)
 
 (assert (not (str.contains x "ef" ) ) )
@@ -7,4 +7,4 @@
 
 
 (check-sat)
-(get-model)
+

@@ -1,5 +1,5 @@
-(set-logic ALL)
-(set-option :produce-models true)
+(set-logic QF_SLIA)
+
 
 (declare-fun s0  ()  String)
 (declare-fun s1  () String)
@@ -23,4 +23,4 @@
 (assert (or (str.contains ret "<")  (str.contains ret ">") ) )
 
 (check-sat)
-(get-model)
+

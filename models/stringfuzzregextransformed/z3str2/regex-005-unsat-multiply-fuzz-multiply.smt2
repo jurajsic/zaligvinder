@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (declare-const y String)
 (assert (= x "{{\\\\\\\\PP..''\\\\nn''CCKKrr]]{{GGYYmm88nnPP{{aa$$gg$$??QQjj!!&&pp55rr66^^DD**aa''\\\\rr''LL''\\\\tt''ss}}//99aaaapp--))FF3311++xxcc##{{!!II..FFWWaa88JJ--MMZZFFUU``kkAA"))

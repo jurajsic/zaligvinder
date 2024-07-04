@@ -1,5 +1,5 @@
-(set-logic ALL)
-(set-option :produce-models true)
+(set-logic QF_SLIA)
+
 
 (declare-fun var607 () String)
 (declare-fun var609 () String)
@@ -144,4 +144,3 @@
 (assert (= true (= var656 var710 ) ))
 
 (check-sat)
-(get-model)

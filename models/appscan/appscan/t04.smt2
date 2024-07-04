@@ -1,6 +1,6 @@
-(set-logic ALL)
-(set-option :produce-models true)
-(set-info :status sat)
+(set-logic QF_SLIA)
+
+
 
 (declare-fun cookie () String)
 (declare-fun cookie_part1 () String)
@@ -28,5 +28,5 @@
 (assert (not (= "" cookie_part1) ) )
 
 (check-sat)
-(get-model)
+
 

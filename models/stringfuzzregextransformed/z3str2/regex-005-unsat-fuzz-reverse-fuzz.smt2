@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (declare-const y String)
 (assert (= x "a^79i""Mw$3al?P8A$,T&I,'\n'v4ok'\n',rA1(T=-3]_SO<6}/6@to~lV$WsdJyX:' '2CN/Tb{w|~p6\\yCFmpk1hbRMo#v\\Ul+~h-XNXq#ZCP_)^j\\c;X>UELHl"))

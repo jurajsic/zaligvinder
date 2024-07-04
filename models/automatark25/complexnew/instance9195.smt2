@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; Host\u{3A}\u{25}2EResultsUser-Agent\u{3A}
 (assert (not (str.in_re X (str.to_re "Host:%2EResultsUser-Agent:\u{a}"))))

@@ -7,5 +7,5 @@
 (assert (= x_7 (str.replaceall x_10 "<code>" "")))
 
 (check-sat)
-(get-model)
+
 

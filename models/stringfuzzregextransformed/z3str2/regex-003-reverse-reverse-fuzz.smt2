@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (assert (= x "deabw^dde"))
 (assert (str.in_re x (re.* (re.++ (str.to_re "h{Mc^-=G") (str.to_re "]+")))))

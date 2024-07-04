@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (assert (= x "CCtCga(]'\u{c}'*1z"))
 (assert (str.in_re x (re.* (re.union (str.to_re "Olt@m") (str.to_re "1$")))))

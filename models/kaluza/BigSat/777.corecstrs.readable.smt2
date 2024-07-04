@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-fun M0_2 () String)
 (declare-fun M0_8 () String)
 (declare-fun M1_2 () String)

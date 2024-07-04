@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; ok\*\-\*PasswordAgent\u{3C}chat\u{3E}
 (assert (str.in_re X (str.to_re "ok*-*PasswordAgent<chat>\u{1b}\u{a}")))

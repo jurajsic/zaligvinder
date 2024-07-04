@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; Toolbar\d+Host\u{3A}\d+4\u{2e}8\u{2e}4\u{7D}\u{7B}Trojan\u{3A}are
 (assert (not (str.in_re X (re.++ (str.to_re "Toolbar") (re.+ (re.range "0" "9")) (str.to_re "Host:") (re.+ (re.range "0" "9")) (str.to_re "4.8.4}{Trojan:are\u{a}")))))

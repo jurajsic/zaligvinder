@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; Host\u{3A}From\u{3a}User-Agent\u{3A}\u{2F}r\u{2F}keys\u{2F}keysClient
 (assert (not (str.in_re X (str.to_re "Host:From:User-Agent:/r/keys/keysClient\u{a}"))))

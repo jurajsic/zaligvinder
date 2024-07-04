@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; name\u{2e}cnnic\u{2e}cn\u{2F}bar_pl\u{2F}chk_bar\.fcgiHost\u{3A}\u{7C}Connected
 (assert (str.in_re X (str.to_re "name.cnnic.cn/bar_pl/chk_bar.fcgiHost:|Connected\u{a}")))

@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-fun var0 () String)
 (assert (str.in_re var0 (re.++ (re.+ (re.+ (str.to_re "000"))) (re.++ (re.* (re.+ (str.to_re "1"))) (re.++ (re.* (re.+ (str.to_re "2"))) (re.++ (re.union (re.union (str.to_re "3") (str.to_re "4")) (re.+ (str.to_re "555"))) (re.++ (re.+ (re.+ (str.to_re "666"))) (re.++ (re.union (re.+ (str.to_re "77")) (re.+ (str.to_re "8"))) (re.++ (re.union (re.* (str.to_re "999")) (re.+ (str.to_re "aaa"))) (re.++ (re.* (re.+ (str.to_re "bbb"))) (re.++ (re.* (re.* (str.to_re "cc"))) (re.++ (re.union (re.* (str.to_re "ddd")) (re.* (str.to_re "e"))) (re.++ (re.+ (re.+ (str.to_re "fff"))) (re.++ (re.* (re.union (str.to_re "gg") (str.to_re "hh"))) (re.++ (re.union (re.* (str.to_re "ii")) (re.* (str.to_re "j"))) (re.++ (re.union (re.+ (str.to_re "k")) (re.+ (str.to_re "ll"))) (re.union (re.union (str.to_re "m") (str.to_re "n")) (re.union (str.to_re "oo") (str.to_re "p")))))))))))))))))))
 (check-sat)

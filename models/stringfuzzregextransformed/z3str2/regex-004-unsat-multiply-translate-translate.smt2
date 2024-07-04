@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (assert (= x "'\u{c}''\u{c}'{{'\r''\r'-sl--sl-'\r''\r'-sl--sl--sV0'\r'--sV0'\r'-"))
 (assert (str.in_re x (re.union (re.* (str.to_re "'\u{c}''\u{c}'{{'\r''\r'-sl--sl-")) (re.* (str.to_re "'\r''\r'-sl--sl--sV0'\r'--sV0'\r'-")))))

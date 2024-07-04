@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; data\.warezclient\.comoakmanympnw\u{2f}lnkd\.pkHost\u{3A}Scaner
 (assert (not (str.in_re X (str.to_re "data.warezclient.comoakmanympnw/lnkd.pkHost:Scaner\u{a}"))))

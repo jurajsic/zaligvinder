@@ -1,5 +1,5 @@
-(set-logic ALL)
-(set-option :produce-models true)
+(set-logic QF_SLIA)
+
 
 (declare-fun var658 () String)
 (declare-fun var660 () Int)
@@ -63,4 +63,3 @@
 (assert (= true (= (str.++ var657 "FROM tpcc_customer" ) var656 ) ))
 
 (check-sat)
-(get-model)

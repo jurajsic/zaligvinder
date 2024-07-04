@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-fun k () String)
 
 (assert (not (not (= (ite (not (= k "_id")) 1 0) 0))))

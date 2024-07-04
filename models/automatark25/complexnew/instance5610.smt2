@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; www\u{2E}alfacleaner\u{2E}comHost\u{3a}Logs
 (assert (str.in_re X (str.to_re "www.alfacleaner.comHost:Logs\u{a}")))

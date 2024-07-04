@@ -1,5 +1,5 @@
-(set-logic ALL)
-(set-info :status sat)
+(set-logic QF_SLIA)
+
 (declare-const y String)
 (declare-const z String)
 
@@ -7,4 +7,3 @@
 (assert (= y (str.replace "mn_efg_k" "efg" "abcd")  ) )
 
 (check-sat)
-(get-model)

@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (assert (= x "Q{CNAQ{Q{C"))
 (assert (str.in_re x (re.* (re.union (str.to_re "NAQ{") (str.to_re "Q{C")))))

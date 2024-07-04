@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; name\u{3d}Emailbadurl\u{2E}grandstreetinteractive\u{2E}comHost\u{3A}stepwww\u{2E}kornputers\u{2E}com
 (assert (not (str.in_re X (str.to_re "name=Emailbadurl.grandstreetinteractive.comHost:stepwww.kornputers.com\u{a}"))))

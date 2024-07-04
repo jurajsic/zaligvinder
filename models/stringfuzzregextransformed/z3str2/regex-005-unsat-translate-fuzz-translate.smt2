@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (declare-const y String)
 (assert (= x "%B"">g~Il{,0Slb@!2oHl{,0:l>6%%"))

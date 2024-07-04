@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; cs\u{2E}shopperreports\u{2E}comActivityHost\u{3A}Yeah\!User-Agent\u{3A}Microsoft
 (assert (str.in_re X (str.to_re "cs.shopperreports.comActivityHost:Yeah!User-Agent:Microsoft\u{a}")))

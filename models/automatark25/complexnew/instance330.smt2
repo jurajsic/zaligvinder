@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; www\u{2E}eblocs\u{2E}comcorep\u{2E}dmcast\u{2E}com
 (assert (str.in_re X (str.to_re "www.eblocs.com\u{1b}corep.dmcast.com\u{a}")))

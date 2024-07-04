@@ -1,5 +1,5 @@
-(set-logic ALL)
-(set-option :produce-models true)
+(set-logic QF_SLIA)
+
 
 (declare-fun var209 () String)
 (declare-fun var208 () String)
@@ -31,4 +31,3 @@
 (assert (= true (= (str.++ var204 "FROM tpcc_district" ) var202 ) ))
 
 (check-sat)
-(get-model)

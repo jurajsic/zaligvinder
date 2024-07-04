@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; User-Agent\u{3A}readyHost\u{3A}Host\u{3A}Subject\u{3A}wininetproducts
 (assert (str.in_re X (str.to_re "User-Agent:readyHost:Host:Subject:wininetproducts\u{a}")))

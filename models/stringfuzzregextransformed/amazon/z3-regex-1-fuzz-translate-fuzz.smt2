@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const S String)
 (assert (not (str.in_re S (re.union (str.to_re "!kW]wbguV5E:=2('\t'_Hwj") re.allchar))))
 (assert (str.in_re S (re.++ (re.union (re.++ (str.to_re "Oqpr") re.allchar) (str.to_re "Mk&a")) re.allchar)))

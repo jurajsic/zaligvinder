@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; /\/stat_svc\/$/U
 (assert (not (str.in_re X (str.to_re "//stat_svc//U\u{a}"))))

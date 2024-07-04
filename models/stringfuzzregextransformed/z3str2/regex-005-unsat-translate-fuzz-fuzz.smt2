@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (declare-const y String)
 (assert (= x "uvA#)#V*'eh'\r''\n'b'\r''\r'1q},>>NMA(Kbe!'\u{c}'(Pf&BM}l5PjKxvV'\n'ZjUa>'\u{c}'37)GYrH?AY0q*f'-'N8`{..Y;\\~'\t'(5p4_)%!*'.V9^yL5>|rDB5)M:a[I3'\n'p("))

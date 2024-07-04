@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; dailyinformationHost\u{3A}I\u{3a}NAME\u{3a}installs\u{2E}seekmo\u{2E}com
 (assert (str.in_re X (str.to_re "dailyinformationHost:I:NAME:installs.seekmo.com\u{a}")))

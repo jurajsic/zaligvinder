@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; MyverToolbarTrojanControlHost\u{3A}
 (assert (not (str.in_re X (str.to_re "MyverToolbarTrojanControlHost:\u{a}"))))

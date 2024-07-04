@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (assert (= (str.len x) 27))
 (assert (str.in_re x (re.+ (str.to_re "Rm{~1ZZ8m"))))

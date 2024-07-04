@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-fun T1_3 () String)
 (declare-fun T2_3 () String)
 (declare-fun T_1 () String)

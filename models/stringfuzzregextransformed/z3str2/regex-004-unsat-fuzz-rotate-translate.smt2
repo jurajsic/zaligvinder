@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (assert (= x "aU-%my{y"))
 (assert (str.in_re x (re.union (re.* (re.+ (str.to_re "{y"))) (str.to_re "j}?'\u{c}'H{N9"))))

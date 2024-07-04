@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; [NS] \d{1,}(\:[0-5]\d){2}.{0,1}\d{0,},[EW] \d{1,}(\:[0-5]\d){2}.{0,1}\d{0,}
 (assert (not (str.in_re X (re.++ (re.union (str.to_re "N") (str.to_re "S")) (str.to_re " ") (re.+ (re.range "0" "9")) ((_ re.loop 2 2) (re.++ (str.to_re ":") (re.range "0" "5") (re.range "0" "9"))) (re.opt re.allchar) (re.* (re.range "0" "9")) (str.to_re ",") (re.union (str.to_re "E") (str.to_re "W")) (str.to_re " ") (re.+ (re.range "0" "9")) ((_ re.loop 2 2) (re.++ (str.to_re ":") (re.range "0" "5") (re.range "0" "9"))) (re.opt re.allchar) (re.* (re.range "0" "9")) (str.to_re "\u{a}")))))

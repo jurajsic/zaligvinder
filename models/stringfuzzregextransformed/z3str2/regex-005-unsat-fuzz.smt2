@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (declare-const y String)
 (assert (= x "XH'\u{b}'OAR!CAha+5>7v[_T+a7'\t'fZ"))

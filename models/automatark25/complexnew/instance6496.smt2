@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; \binterface\b.*(\bI[_]\w*\b)
 (assert (not (str.in_re X (re.++ (str.to_re "interface") (re.* re.allchar) (str.to_re "\u{a}I_") (re.* (re.union (re.range "0" "9") (re.range "A" "Z") (re.range "a" "z") (str.to_re "_")))))))

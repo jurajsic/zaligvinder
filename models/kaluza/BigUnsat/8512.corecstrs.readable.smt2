@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-fun I0_15 () Int)
 (declare-fun I0_18 () Int)
 (declare-fun I0_2 () Int)
@@ -220,4 +221,3 @@
 (assert (= T_3c (not T_3b)))
 (assert T_3c)
 (check-sat)
-(get-model)

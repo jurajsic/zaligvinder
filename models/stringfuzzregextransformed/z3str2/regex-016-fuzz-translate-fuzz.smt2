@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (declare-const y String)
 (assert (str.in_re x (re.* (re.++ (str.to_re "$d:55BdhwIK' '',8/{l4-iM$7/' '\\rv|GI") (str.to_re "1")))))

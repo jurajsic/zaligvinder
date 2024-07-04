@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; Referer\u{3A}TencentTraveler
 (assert (str.in_re X (str.to_re "Referer:TencentTraveler\u{a}")))

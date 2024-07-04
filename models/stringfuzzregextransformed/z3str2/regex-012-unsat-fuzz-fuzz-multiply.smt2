@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (declare-const y String)
 (assert (str.in_re x (re.+ (re.++ (str.to_re "==HHNNuu[[[[MMKK!!RRoo77KKffHH") (str.to_re "rr<<&&rr")))))

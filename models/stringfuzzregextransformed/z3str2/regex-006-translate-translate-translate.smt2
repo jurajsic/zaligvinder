@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (declare-const y String)
 (assert (= x "bPm-PPm}P=L0&Pm}PbPm-PPm}P=L0&Pm}P"))

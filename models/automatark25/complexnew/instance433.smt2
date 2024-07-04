@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; toolbarplace\u{2E}com.*TencentTraveler\d+\u{2F}newsurfer4\u{2F}.*BysooTBADdcww\u{2E}dmcast\u{2E}com
 (assert (str.in_re X (re.++ (str.to_re "toolbarplace.com") (re.* re.allchar) (str.to_re "TencentTraveler") (re.+ (re.range "0" "9")) (str.to_re "/newsurfer4/") (re.* re.allchar) (str.to_re "BysooTBADdcww.dmcast.com\u{a}"))))

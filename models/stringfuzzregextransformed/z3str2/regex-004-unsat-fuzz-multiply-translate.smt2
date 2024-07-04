@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (assert (= x "||ccww' '' '``HHssHH"))
 (assert (str.in_re x (re.union (re.* (str.to_re "GGzz{{ZZjjssaa99")) (re.+ (str.to_re "ssHH")))))

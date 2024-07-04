@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; trackwww\u{2E}alfacleaner\u{2E}com
 (assert (str.in_re X (str.to_re "trackwww.alfacleaner.com\u{a}")))

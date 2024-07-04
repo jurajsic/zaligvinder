@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-fun key () String)
 
 (assert (not (not (= (ite (= key "www-authenticate") 1 0) 0))))

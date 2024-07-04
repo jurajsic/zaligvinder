@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; eveocczmthmmq\u{2f}omzl\d+Host\u{3A}ulmxct\u{2f}mqoyc
 (assert (not (str.in_re X (re.++ (str.to_re "eveocczmthmmq/omzl") (re.+ (re.range "0" "9")) (str.to_re "Host:ulmxct/mqoyc\u{a}")))))

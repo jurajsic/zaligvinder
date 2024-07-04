@@ -7,4 +7,4 @@
 (assert (= x_7 "HalloWorld"))
 
 (check-sat)
-(get-model)
+

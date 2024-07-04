@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; ^(\d{1,4}?[.]{0,1}?\d{0,3}?)$
 (assert (not (str.in_re X (re.++ (str.to_re "\u{a}") ((_ re.loop 1 4) (re.range "0" "9")) (re.opt (str.to_re ".")) ((_ re.loop 0 3) (re.range "0" "9"))))))

@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; CD\u{2F}\.ico\u{2F}sLogearch195\.225\.
 (assert (str.in_re X (str.to_re "CD/.ico/sLogearch195.225.\u{a}")))

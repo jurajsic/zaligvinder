@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-fun I0_6 () Int)
 (declare-fun PCTEMP_LHS_1 () String)
 (declare-fun PCTEMP_LHS_2 () Int)

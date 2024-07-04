@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (declare-const y String)
 (assert (= x "'*4t2H'\u{b}''\u{c}'=7GSSeM+b'PEX\\4m_GTx0>:EO"))

@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (assert (= x "::tt??vvXXUU~~nnssNNss'\u{c}''\u{c}'LLLLCC'\u{c}''\u{c}'::}}QQ'\u{c}''\u{c}';;::!!99^^**tt"))
 (assert (str.in_re x (re.+ (re.++ (str.to_re "aaqqYY++pp' '' '77") (str.to_re "&&tt")))))

@@ -1,5 +1,5 @@
-(set-logic ALL)
-(set-info :status sat)
+(set-logic QF_SLIA)
+
 (declare-const x String)
 (declare-const y1 String)
 (declare-const y2 String)
@@ -10,4 +10,4 @@
 
 
 (check-sat)
-(get-model)
+

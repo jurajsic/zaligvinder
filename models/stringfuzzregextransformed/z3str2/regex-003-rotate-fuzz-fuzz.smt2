@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (assert (= x "oIinJgU'\u{b}'Xf""<?T7h<]jhak'\n'Bzo[22v?mrH6[Nb>CbkWv3'go'\t'7iNLe'\u{c}'N3Ju'j'\u{b}'f,m0=!*\\*=`&p01=@DM~Mh'\\n`{]WCmWr|(lyUlCB`GK#|!<)'^~Vm2WRT~G*e"))
 (assert (str.in_re x (re.+ (re.++ (str.to_re "K$") (str.to_re "'\u{b}'/R#`0")))))

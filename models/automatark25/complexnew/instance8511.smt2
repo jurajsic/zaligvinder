@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; isSAH\*Agentwww\.raxsearch\.comHost\u{3A}-~-\u{22}The
 (assert (str.in_re X (str.to_re "isSAH*Agentwww.raxsearch.comHost:-~-\u{22}The\u{a}")))

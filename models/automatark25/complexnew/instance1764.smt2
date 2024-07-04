@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; www\.123mania\.com\u{2F}0409areZC-Bridge
 (assert (not (str.in_re X (str.to_re "www.123mania.com/0409areZC-Bridge\u{a}"))))

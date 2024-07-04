@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (declare-const y String)
 (assert (str.in_re x (str.to_re "Oz.fCBa0'{6' '_'\t'c'\n'o'\u{c}''\u{b}'^[i4'\r'Kia8INP'\n'gFc/a{'\n'=i^R3*T[@APuS'\t'Tq)")))

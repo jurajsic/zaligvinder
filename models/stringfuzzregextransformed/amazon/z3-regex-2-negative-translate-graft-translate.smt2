@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const S String)
 (assert (str.in_re S (str.to_re "///")))
 (assert (not (str.in_re S (re.++ (re.++ (re.++ (str.to_re "'\u{c}''\u{c}''\u{c}'") re.allchar) (re.++ (str.to_re "'\u{c}''\u{c}''\u{c}'///") re.allchar)) re.allchar))))

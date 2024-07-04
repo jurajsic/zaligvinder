@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; activityHWAEHost\u{3a}MyWayServidor\u{2E}HANDYEmail
 (assert (str.in_re X (str.to_re "activityHWAEHost:MyWayServidor.\u{13}HANDYEmail\u{a}")))

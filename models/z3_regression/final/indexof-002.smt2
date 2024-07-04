@@ -1,5 +1,5 @@
-(set-logic ALL)
-(set-info :status sat)
+(set-logic QF_SLIA)
+
 (declare-const get_fileName String)
 (declare-const name0 String)
 (declare-const i Int)
@@ -12,4 +12,4 @@
 
 
 (check-sat)
-(get-model)
+

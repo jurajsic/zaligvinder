@@ -1,5 +1,5 @@
-(set-logic ALL)
-(set-option :produce-models true)
+(set-logic QF_SLIA)
+
 
 (declare-fun v0 () String)
 
@@ -7,4 +7,4 @@
 (assert (= v0 (str.++ "I" (str.++ "J" (str.++ "K" (str.++ "L" (str.++ "M" (str.++ "N" (str.++ "O" (str.++ "C" (str.++ "P" "Q")))))))))))
 
 (check-sat)
-(get-model)
+

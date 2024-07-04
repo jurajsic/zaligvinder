@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (assert (= x "CJ$+tCJCJ$"))
 (assert (str.in_re x (re.* (re.union (str.to_re "+tCJ") (str.to_re "CJ$")))))

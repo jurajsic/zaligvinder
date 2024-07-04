@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (declare-const y String)
 (assert (str.in_re x (re.* (re.union (str.to_re "a{5Z'\n']..-$Z'\t'!'\r'C{[7|'\t'&\\n2qcP!nLnUnM`/$a]cwy`idd") (str.to_re "2")))))

@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (assert (= x "\\\\\\\\(N'\\\\u{b}']\\\\\\\\(\\\\\\\\(N"))
 (assert (str.in_re x (str.to_re "\\\\\\\\(N")))

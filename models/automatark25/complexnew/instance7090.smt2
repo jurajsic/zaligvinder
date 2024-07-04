@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; fsbuffsearch\u{2e}conduit\u{2e}comocllceclbhs\u{2f}gth
 (assert (str.in_re X (str.to_re "fsbuffsearch.conduit.comocllceclbhs/gth\u{a}")))

@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (declare-const y String)
 (assert (= x "Vua.JY)'\\u{c}'-D}2]<'\\u{b}'.6VV"))

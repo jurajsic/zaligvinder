@@ -1,5 +1,5 @@
-(set-logic ALL)
-(set-option :produce-models true)
+(set-logic QF_SLIA)
+
 
 (declare-fun v140 () String)
 (declare-fun v143 () String)
@@ -316,4 +316,4 @@
 (assert (not (str.in_re v120 (str.to_re "C"))))
 
 (check-sat)
-(get-model)
+

@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; Subject\u{3A}AlexaOnline\u{25}21\u{25}21\u{25}21
 (assert (not (str.in_re X (str.to_re "Subject:AlexaOnline%21%21%21\u{a}"))))

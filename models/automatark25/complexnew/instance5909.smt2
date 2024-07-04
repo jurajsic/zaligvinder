@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; xmlHost\u{3A}DAPCURLBlazeActivity
 (assert (not (str.in_re X (str.to_re "xmlHost:DAPCURLBlazeActivity\u{a}"))))

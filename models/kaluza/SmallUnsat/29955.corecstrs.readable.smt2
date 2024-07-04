@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-fun T_1 () Int)
 (declare-fun T_2 () Bool)
 (declare-fun T_3 () Bool)

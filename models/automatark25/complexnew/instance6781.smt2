@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; Try2Find\u{23}\u{23}\u{23}\u{23}ToolbarServerUser\u{3A}
 (assert (str.in_re X (str.to_re "Try2Find####ToolbarServerUser:\u{a}")))

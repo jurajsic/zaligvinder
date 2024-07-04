@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 (declare-const X String)
 ; wwwHost\u{3a}RobertVersionspyblini\u{2E}ini
 (assert (str.in_re X (str.to_re "wwwHost:RobertVersionspyblini.ini\u{a}")))

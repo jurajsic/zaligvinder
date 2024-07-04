@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (assert (= x "cd$!PCZahAh'\\\\n'c<w'{c~9^Gd"))
 (assert (str.in_re x (str.to_re "TE;U%x7")))

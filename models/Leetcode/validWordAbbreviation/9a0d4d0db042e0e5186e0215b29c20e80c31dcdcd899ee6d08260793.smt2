@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 
 (declare-fun word () String)
 (declare-fun abbr () String)

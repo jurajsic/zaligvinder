@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (assert (= x "db>0E'\u{b}'hf0'\u{b}'u[x5Ds1KA3#j]_(lY6xddeAj]+Zbjb-4qYwu23_OEangr#$q[bG'C0@' 'PTDKY$k'\n'5ODBdv)&YjdUi2e"))
 (assert (str.in_re x (str.to_re "c~B,e")))

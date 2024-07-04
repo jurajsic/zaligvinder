@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (declare-const y String)
 (assert (str.in_re x (str.to_re "iG9'\\u{b}'>\\\\-a(a%Jr4s+\\\\cdd")))

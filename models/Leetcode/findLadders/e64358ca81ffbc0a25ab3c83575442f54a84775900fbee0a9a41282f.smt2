@@ -1,3 +1,4 @@
+(set-logic QF_SLIA)
 
 (declare-fun endWord () String)
 (declare-fun beginWord () String)

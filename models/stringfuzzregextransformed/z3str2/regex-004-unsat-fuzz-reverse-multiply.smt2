@@ -1,4 +1,4 @@
-(set-logic ALL)
+(set-logic QF_SLIA)
 (declare-const x String)
 (assert (= x "ddccddPP!!$$bbaa"))
 (assert (str.in_re x (re.union (re.* (str.to_re "99~~cc::{{''hhAA")) (re.+ (str.to_re "ddcc")))))
