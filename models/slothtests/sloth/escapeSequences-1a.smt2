@@ -10,4 +10,3 @@
 (assert (str.in_re x (re.* (re.range "a" "u"))))
 (check-sat)
 
-(check-sat)

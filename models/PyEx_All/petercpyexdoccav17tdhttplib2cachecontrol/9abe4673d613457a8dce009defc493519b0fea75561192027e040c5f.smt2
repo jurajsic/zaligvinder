@@ -1,7 +1,4 @@
-(set-logic QF_SLIA)
-;
-;
-;(set-option :rewrite-divk true)
+(set-logic QF_S)
 
 (declare-fun key () String)
 
@@ -9,8 +6,3 @@
 
 (check-sat)
 
-;(get-value (key))control") 1 0) 0))))
-
-(check-sat)
-
-;(get-value (key))
